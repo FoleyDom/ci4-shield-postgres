@@ -30,10 +30,8 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('/pages', 'Page::index');
-
 service('auth')->routes($routes);
-
+$routes->get('pages', 'Pages::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
@@ -48,5 +46,5 @@ service('auth')->routes($routes);
  * needing to reload it.
  */
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
-    require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
+  require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
