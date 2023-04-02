@@ -4,11 +4,11 @@ namespace App\Controllers;
 
 use CodeIgniter\Exceptions\PageNotFoundException;
 
-class Pages extends BaseController
+class About extends BaseController
 {
   public function index()
   {
-    return view('layout/global_header') . view('page/index') . view('layout/global_footer'); 
+    return view('layout/global_header') . view('about_page/about') . view('layout/global_footer'); 
   }
 
   public function views($page = 'home')

@@ -32,6 +32,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 service('auth')->routes($routes);
 $routes->get('pages', 'Pages::index');
+$routes->get('about', 'About::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
