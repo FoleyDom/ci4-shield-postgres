@@ -12,14 +12,14 @@
    <div class="mx-auto max-w-screen-xl p-4">
       <div class="flex items-center justify-between gap-4 lg:gap-10">
          <div class="flex lg:w-0 lg:flex-1">
-            <a href="#">
+            <a href="/pages">
                <span class="sr-only">Logo</span>
                <span class="inline-block h-10 w-32 rounded-lg bg-gray-200"></span>
             </a>
          </div>
 
          <nav aria-label="Site Nav" class="hidden gap-8 text-sm font-medium md:flex">
-            <a class="text-gray-500" href="">About</a>
+            <a class="text-gray-500" href="/about">About</a>
             <a class="text-gray-500" href="">Blog</a>
             <a class="text-gray-500" href="">Projects</a>
             <a class="text-gray-500" href="">Contact</a>
