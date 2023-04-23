@@ -6,9 +6,9 @@
       <h1
         class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
       >
-        Understand User Flow.
+        The start of something great!
 
-        <span class="sm:block"> Increase Conversion. </span>
+        <span class="sm:block"> Sign up and explore what we're building. </span>
       </h1>
 
       <p class="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
