@@ -21,7 +21,7 @@
          <nav aria-label="Site Nav" class="hidden gap-8 text-sm font-medium md:flex">
             <a class="text-gray-500" href="/about">About</a>
             <a class="text-gray-500" href="">Blog</a>
-            <a class="text-gray-500" href="/newletter/sign-up">Newsletter</a>
+            <a class="text-gray-500" href="/newsletter/sign-up">Newsletter</a>
             <a class="text-gray-500" href="">Contact</a>
          </nav>
 
