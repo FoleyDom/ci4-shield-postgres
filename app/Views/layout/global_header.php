@@ -12,7 +12,7 @@
    <div class="mx-auto max-w-screen-xl p-4">
       <div class="flex items-center justify-between gap-4 lg:gap-10">
          <div class="flex lg:w-0 lg:flex-1">
-            <a href="/pages">
+            <a href="/">
                <span class="sr-only">Logo</span>
                <span class="inline-block h-10 w-32 rounded-lg bg-gray-200"></span>
             </a>
@@ -21,16 +21,16 @@
          <nav aria-label="Site Nav" class="hidden gap-8 text-sm font-medium md:flex">
             <a class="text-gray-500" href="/about">About</a>
             <a class="text-gray-500" href="">Blog</a>
-            <a class="text-gray-500" href="">Projects</a>
+            <a class="text-gray-500" href="/newsletter/sign-up">Newsletter</a>
             <a class="text-gray-500" href="">Contact</a>
          </nav>
 
          <div class="hidden flex-1 items-center justify-end gap-4 sm:flex">
-            <a class="rounded-lg bg-gray-100 px-5 py-2 text-sm font-medium text-gray-500" href="">
+            <a class="rounded-lg bg-gray-100 px-5 py-2 text-sm font-medium text-gray-500" href="/login">
                Log in
             </a>
 
-            <a class="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white" href="">
+            <a class="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white" href="/register">
                Sign up
             </a>
          </div>
