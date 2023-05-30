@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./css/output.css">
-   <title>test</title>
+   <title><?= esc($tab_title)?></title>
 </head>
 <header aria-label="Site Header" class="shadow-sm">
    <div class="mx-auto max-w-screen-xl p-4">

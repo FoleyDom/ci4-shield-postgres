@@ -8,11 +8,19 @@ class Newsletter extends BaseController
 {
     public function index()
     {
-        return view('layout/global_header') . view('newsletter/newsletter') . view('layout/global_footer');
+        $data =
+        [
+          'tab_title' => 'Newsletter'
+        ];
+        return view('layout/global_header', $data) . view('newsletter/newsletter') . view('layout/global_footer');
     }
 
     public function sign_up()
     {
-        return view('layout/global_header') . view('newsletter/sign_up') . view('layout/global_footer');
+        $data =
+        [
+          'tab_title' => 'About'
+        ];
+        return view('layout/global_header',  $data) . view('newsletter/sign_up') . view('layout/global_footer');
     }
 }

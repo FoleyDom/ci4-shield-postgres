@@ -8,7 +8,11 @@ class About extends BaseController
 {
   public function index()
   {
-    return view('layout/global_header') . view('about_page/about') . view('layout/global_footer'); 
+    $data =
+      [
+        'tab_title' => 'About'
+      ];
+
+    return view('layout/global_header', $data) . view('about_page/about') . view('layout/global_footer');
   }
-  
 }
