@@ -19,7 +19,7 @@ class Newsletter extends BaseController
     {
         $data =
         [
-          'tab_title' => 'About'
+          'tab_title' => 'Newsletter-Sign Up'
         ];
         return view('layout/global_header',  $data) . view('newsletter/sign_up') . view('layout/global_footer');
     }

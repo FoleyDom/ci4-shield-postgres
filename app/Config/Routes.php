@@ -32,7 +32,13 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 service('auth')->routes($routes);
 $routes->get('pages', 'Pages::index');
-$routes->get('about', 'About::index');
+
+$routes->group('user', ['filter' => 'group : user'], static function ($routes) 
+{
+  $routes->get('about', 'About::index');
+});
+//$routes->get('about', 'About::index');
+
 $routes->get('newsletter', 'Newsletter::index');
 $routes->get('newsletter/sign-up', 'Newsletter::sign_up');
 /*
